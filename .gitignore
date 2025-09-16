@@ -1,0 +1,29 @@
+# STM32Cube generated
+/firmware/CubeGenerated/Debug/
+/firmware/CubeGenerated/Release/
+/firmware/CubeGenerated/*.ioc.work
+*.swp
+*.user
+*.log
+
+# Build artifacts
+/build/
+/bin/
+/obj/
+/*.elf
+/*.map
+/*.hex
+/*.bin
+
+# Ceedling
+/tests/build/
+/tests/vendor/
+/tests/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python env
+venv/
+.env
