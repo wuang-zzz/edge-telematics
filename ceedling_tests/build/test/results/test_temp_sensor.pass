@@ -1,0 +1,23 @@
+---
+:source:
+  :file: test/test_temp_sensor.c
+  :dirname: test
+  :basename: test_temp_sensor.c
+:successes:
+- :test: test_sensor_read_temperature_success
+  :line: 7
+  :message: ''
+  :unity_test_time: 0
+- :test: test_sensor_read_temperature_nullptr
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.05193720001261681
