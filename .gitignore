@@ -1,7 +1,7 @@
 # STM32Cube generated
-/firmware/CubeGenerated/Debug/
-/firmware/CubeGenerated/Release/
-/firmware/CubeGenerated/*.ioc.work
+/firmware/CubeGenerated/edge_telematics_fw/Debug/
+/firmware/CubeGenerated/edge_telematics_fw/Release/
+/firmware/CubeGenerated/edge_telematics_fw/*.ioc.work
 *.swp
 *.user
 *.log
@@ -16,9 +16,9 @@
 /*.bin
 
 # Ceedling
-/tests/build/
-/tests/vendor/
-/tests/logs/
+/ceedling_tests/build/
+/ceedling_tests/vendor/
+/ceedling_tests/logs/
 
 # OS files
 .DS_Store
